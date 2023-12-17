@@ -1,6 +1,7 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import getComponentData from "../../api/getComponentData";
-import React from "react";
 
 const EditableTextField = ({ componentId }: { componentId: string }) => {
   const [value, setValue] = useState<string>("");

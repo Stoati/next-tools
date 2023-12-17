@@ -1,6 +1,6 @@
 {
   "name": "@stoati/nextjs-tools",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A nextjs components library made to use stoati cms functionnalities",
   "scripts": {
     "build": "rollup -c",
@@ -22,7 +22,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "server-only": "^0.0.1",
     "zod": "^3.22.4"
   },
   "main": "dist/cjs/index.js",

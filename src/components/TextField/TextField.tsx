@@ -1,4 +1,3 @@
-import React from "react";
 import EditableChecker from "../EditableChecker/EditableChecker";
 import StaticTextField from "./StaticTextField";
 import EditableTextField from "./EditableTextField";

@@ -1,6 +1,5 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import getComponentData from "../../api/getComponentData";
-import "server-only";
 
 type CodeComponent = FunctionComponent<{ componentId: string }>;
 
