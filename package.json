@@ -1,6 +1,6 @@
 {
   "name": "@stoati/nextjs-tools",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A nextjs components library made to use stoati cms functionnalities",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
