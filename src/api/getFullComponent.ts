@@ -3,7 +3,7 @@ import { Component } from "../types/Component";
 
 const getFullComponent = async () => {
   //@ts-expect-error
-  const stoatiId = window.StoatiId as string | undefined;
+  const stoatiId = process.env.STOATI_ID;
 
   if (!stoatiId) {
     throw new Error(
@@ -11,8 +11,7 @@ const getFullComponent = async () => {
     );
   }
   const data = await fetch(
-    //@ts-expect-error
-    process.env.STOATI_API_URL + "/shops/" + stoatiId + "/modules"
+    "http://localhost:8000/shops/" + stoatiId + "/modules"
   );
 
   const response = await data.json();
