@@ -1,9 +1,9 @@
 {
   "name": "@stoati/nextjs-tools",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A nextjs components library made to use stoati cms functionnalities",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build": "rollup -c",
     "ci": "pnpm install && pnpm run build"
   },
   "author": "Hugo Chataigner",
@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "rollup": "^4.9.0",
     "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-preserve-directives": "^0.2.0",
     "tslib": "^2.6.2",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
